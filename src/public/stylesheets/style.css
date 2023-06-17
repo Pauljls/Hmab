@@ -1,0 +1,47 @@
+.nav{
+    background-color: #000000;
+    color: #eeeeee;
+    height: 250px;
+}
+
+
+
+.local{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.footer-h{
+    background-color: #65A6FA;
+    display:absolute;
+    height: 400px;
+    overflow-y:hidden ;
+}
+.copy{
+    margin: 25px auto 25px;
+}
+
+footer{
+    background-color: #65A6FA;
+    display:absolute;
+    height: 800px;
+}
+.t-footer{
+    margin:50px auto 50px
+}
+svg{
+    font-size: 250px;
+    margin:15px;
+}
+
+svg path :hover{
+    color: #000000;
+    
+}
+img{
+    margin: 50px auto 50px;
+    width: 350px;
+}
+
+.media:link{
+    color: #000000;
+}
