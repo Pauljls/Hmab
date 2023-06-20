@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
@@ -70,7 +70,7 @@
         </li>
       -->
       <li class="nav-item">
-        <a class="nav-link" href="./login">Iniciar Sesion</a>
+        <a class="nav-link" href="./signin">Iniciar Sesion</a>
       </li>
       </ul>
 
@@ -78,21 +78,26 @@
   </div>
 </nav>
 <!--MAIN CONTENT-->
-
+ <% if (signupMessage) { %>
+  <div><%=signupMessage %></div>
+ <% } %>
     <div >
       <h1 class="minfo-t">Mi informacion</h1>
-        <form class="d-login">          
-          <input type="text" placeholder="Nombre" class="data">
-          <input type="text" placeholder="Apellido" class="data">
-          <input type="text" placeholder="Direccion" class="data">
-          <input type="text" placeholder="Telefono" class="data">
-          <input type="email" placeholder="Correo Electronico" class="data">
-          <input type="password" placeholder="Contraseñas" class="data">
+        <form action="/registro" method="POST" class="d-login">          
+          <input type="text" name="name" placeholder="Nombre" class="data">
+          <input type="text" name="lastname" placeholder="Apellido" class="data">
+          <input type="text" name="address" placeholder="Direccion" class="data">
+          <input type="text" name="phone" placeholder="Telefono" class="data">
+          <input type="email" name="email" placeholder="Correo Electronico" class="data">
+          <input type="password" name="password" placeholder="Contraseñas" class="data">
           <input type="submit" title="Enviar" class="f-button">
-          <div class="cont-opc-e text-center">
-          <a href="./login" class="opc-e">Ya tengo una cuenta</a>
-          </div>
+
         </form>
+        
+          <div class="cont-opc-e text-center">
+          <a href="./signin" class="opc-e">Ya tengo una cuenta</a>
+          </div>
+       
     </div>
 
     <div class="text-center container-fluid footer-h">

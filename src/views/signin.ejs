@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
@@ -36,7 +36,7 @@
 
 
 <!--NAVBAR-->
-<!--NAVBAR-->
+
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
@@ -69,7 +69,7 @@
         </li>
       -->
       <li class="nav-item">
-        <a class="nav-link" href="./login">Iniciar Sesion</a>
+        <a class="nav-link" href="./signin">Iniciar Sesion</a>
       </li>
       </ul>
 
@@ -82,10 +82,12 @@
     <div >
       <h1 class="text-center t-log">Ingreso</h1>
         <div class="d-login">
-          <input type="email" placeholder="Correo Electronico" class="data">
-          <input type="password" placeholder="Contraseñas" class="data">
-          <input type="submit" title="Enviar" class="f-button">
-          <div class="cont-opc-e text-center">
+          <form action="/signin" method="POST">
+            <input type='email' placeholder="Correo Electronico" class="data">
+            <input type='password' placeholder="Contraseña" class="data">
+            <input type="submit" title="Enviar" class="f-button">
+          </form>
+            <div class="cont-opc-e text-center">
           <a href="./registro" class="opc-e">Registrarse</a>
           </div>
         </div>
