@@ -1,0 +1,53 @@
+
+.nav{
+    background-color: #000000;
+    color: #eeeeee;
+    height: 80px;
+}
+.opciones {
+    color:#eeeeee;
+    list-style:none;
+    display: inline-block;
+    margin-top: 25px ;
+}
+
+.opciones:hover{
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+.local{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/*FOOTER-------------------------------------------------------------------*/
+footer{
+    background-color: #65A6FA;
+    display:absolute;
+    height: 500px;
+}
+.t-footer{
+    margin:50px auto;
+    padding-top: 50px;
+}
+.copy{
+    margin: 25px auto 50px;
+}
+svg{
+    font-size: 250px;
+    margin:15px;
+}
+
+svg path :hover{
+    color: #000000;
+    
+}
+.media:link{
+    color: #000000;
+}
+/*------------------------------------------------------------------------*/

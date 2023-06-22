@@ -1,0 +1,72 @@
+.celements{
+    margin: 55px auto;
+}
+
+.fmenu{
+   /* margin: 55px auto 55px auto;*/
+    padding-top: 55px;
+  }
+
+.submit{
+    background-color: #000000;
+    color: #eeeeee;
+    width: 183px;
+    height: 58px;
+    border-radius: 60px;
+}
+/*FOOTER*/
+footer{
+    background-color: #65A6FA;
+    display:absolute;
+    height: 500px;
+}
+.t-footer{
+    margin:50px auto;
+    padding-top: 50px;
+}
+.copy{
+    margin: 25px auto 50px;
+}
+svg{
+    font-size: 250px;
+    margin:15px;
+}
+
+svg path :hover{
+    color: #000000;
+    
+}
+.media:link{
+    color: #000000;
+}
+/* RESERVACION */
+
+form{
+    position:flexbox;
+    margin: 50px 1.5%;
+    display: inline;
+}
+form input{
+    position: flexbox;
+    display: inline;
+    margin:5% 10%;
+    border-style: solid;
+}
+.nombre{
+    width:300px;
+    border-style:solid;
+    border-color: #ffffffff #ffffffff #000 #ffffffff   ;
+} 
+.reserva:link{
+    text-decoration: none;
+    color: #ffffffff;
+}
+
+.b-data{
+    margin: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    width: 202px;
+    height: 54px;
+}

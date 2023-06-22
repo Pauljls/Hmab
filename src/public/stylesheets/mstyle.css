@@ -1,0 +1,50 @@
+
+.pmenu{
+margin: 50px auto 50px;
+background-color: #E7F220;
+height: 635px;
+overflow: scroll;
+}
+.rcabecera {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 38PX;
+  margin: 25px auto;
+}
+button{ 
+  background-color: #000000;
+  color: #eeeeee;
+  width: 100px;
+  height: 30px; 
+  border-radius: 50px;
+}
+.pmenu-e{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24PX;
+    margin-top: 10px;
+}
+/*FOOTER-------------------------------------------------------------------*/
+footer{
+  background-color: #65A6FA;
+  display:absolute;
+  height: 500px;
+}
+.t-footer{
+  margin:50px auto;
+  padding-top: 50px;
+}
+.copy{
+  margin: 25px auto 50px;
+}
+svg{
+  font-size: 250px;
+  margin:15px;
+}
+
+svg path :hover{
+  color: #000000;
+  
+}
+.media:link{
+  color: #000000;
+}
+/*------------------------------------------------------------------------*/

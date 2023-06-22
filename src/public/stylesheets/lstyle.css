@@ -1,0 +1,65 @@
+/*LOGIN*/
+.t-form{
+    margin: 45px auto;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #65A6FA;
+    display:absolute;
+    height: 500px;
+}
+.t-footer{
+    margin:50px auto;
+    padding-top: 50px;
+}
+.copy{
+    margin: 25px auto 50px;
+}
+svg{
+    font-size: 250px;
+    margin:15px;
+}
+
+svg path :hover{
+    color: #000000;
+    
+}
+.media:link{
+    color: #000000;
+}
+
+/*---------------------------------------------------*/
+.t-log{
+    margin-top:50px ;
+    margin-bottom: 80px;
+  }
+.data {
+    display: block;
+    margin: 15px auto 50px;
+    border-color: #ffffff #ffffff #000000 #ffffff ;
+    border-style:double ;
+    width: 350px;
+ 
+}
+
+.f-button {
+    display: block;
+    margin: 15px auto 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 30px ;
+    width: 154px;
+    height: 54px;
+  }
+.cont-opc-e{
+    margin-bottom:80px ;
+}
+  
+/*----------------REGISTRO----------------------*/
+
+.minfo-t{
+    margin-left: 5%;
+    margin-top:50px ;
+    margin-bottom: 80px;
+}

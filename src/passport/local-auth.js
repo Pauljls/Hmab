@@ -38,13 +38,14 @@ passport.use('local-signin',new LocalStrategy({
     passwordField: 'password',
     passReqToCallback: true
 }, async (req,email,password,done)=>{
-    const user=await User.findOne({email: email});
+    
+    const user = await User.findOne({email:email});//SEARCH IN DB
     if(!user){
-        return done(null,false,req.flash("signinMesage","No user found."));
+        return done(null,false,req.flash('signinMessage','No user found.'));
     }
     if(!user.comparePassword(password)){
-        return done(null,false,req.flash("signinMessage","Incorrect Password"));
+        return done(null,false,req.flash('signinMessage','Incorrect Password'));
     }
+
     done(null,user);
-    
 }));
