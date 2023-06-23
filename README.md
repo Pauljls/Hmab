@@ -1,6 +1,6 @@
 # Hmab
 This is  a simple code for a burguer restarurant called "El perol"
-For run this u will need intall node and the next modules:
+For run this u will need intall node and the following modules:
 -bycrypt-nodejs // this module work for encript passwords
 -connect-flash
 -ejs-mate // this engine is useful for make a dinamic frames
