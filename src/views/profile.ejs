@@ -60,11 +60,12 @@
   </nav>
 <!--MAIN CONTENT-->
 <div class="container">
-<div><h1 class="mt-4">Profile</h1>
+<div><h1 class="mt-4 mb-4">Perfil</h1>
 <div class="card card-body">
-  <h3><%=user.email%></h3>
-  <p><%=user.password%></p>
-  <p><%=user.id%></p> 
+  <h3 class="mb-4"><%=user.email%></h3>
+  <p>Nombre: <%=user.name%> <%=user.lastname%></p>
+  <p>Telefono: <%=user.phone%> </p> 
+  <p>Direccion: <%=user.address%></p>
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

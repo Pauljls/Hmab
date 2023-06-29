@@ -27,6 +27,10 @@ passport.use('local-signup',new LocalStrategy({
         const newUser= new User();
         newUser.email = email;
         newUser.password = newUser.encryptPassword(password);
+        newUser.name = req.body.name;
+        newUser.lastname=req.body.lastname;
+        newUser.address=req.body.address;
+        newUser.phone=req.body.phone;
         await newUser.save();//SAVE IN DATABASE
         done(null,newUser);//RETURN DATA+
     }
