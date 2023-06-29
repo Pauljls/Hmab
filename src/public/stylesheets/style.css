@@ -20,13 +20,18 @@
     margin: 25px auto 25px;
 }
 
+/*FOOTER*/
 footer{
     background-color: #65A6FA;
     display:absolute;
-    height: 800px;
+    height: 500px;
 }
 .t-footer{
-    margin:50px auto 50px
+    margin:50px auto;
+    padding-top: 50px;
+}
+.copy{
+    margin: 25px auto 50px;
 }
 svg{
     font-size: 250px;
@@ -37,11 +42,6 @@ svg path :hover{
     color: #000000;
     
 }
-img{
-    margin: 50px auto 50px;
-    width: 350px;
-}
-
 .media:link{
     color: #000000;
 }

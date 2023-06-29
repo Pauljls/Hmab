@@ -41,6 +41,7 @@ app.use(passport.session());//SESSION DECALRATION FOR STORAGE
 app.use((req,res,next)=>{
     app.locals.signupMessage=req.flash('signupMessage');
     app.locals.signinMessage=req.flash('signinMessage');
+    app.locals.user=req.user;
     next();
 });
 
