@@ -81,7 +81,7 @@
 </nav>
 <!--MAIN CONTENT-->
  <% if (signupMessage.length > 0) { %>
-  <div class="alert alert-danger"><%=signupMessage %></div>
+  <div class="alert alert-danger text-center"><%=signupMessage %></div>
  <% } %>
     <div >
       <h1 class="minfo-t">Mi informacion</h1>
@@ -92,6 +92,7 @@
           <input type="text" name="phone" placeholder="Telefono" class="data">
           <input type="email" name="email" placeholder="Correo Electronico" class="data">
           <input type="password" name="password" placeholder="Contraseñas" class="data">
+          <input type="password" name="confirm_password" placeholder="Confirmar Contraseñas" class="data">
           <input type="submit" title="Enviar" class="f-button">
 
         </form>

@@ -24,6 +24,11 @@ passport.use('local-signup',new LocalStrategy({
     if(user){
         return done(null,false,req.flash("signupMessage","The email is already taken."));
     }else{
+
+        // Comprobar si las contraseñas coinciden
+        if(password !== req.body.confirm_password){
+            return done(null, false, req.flash("signupMessage", "Las contraseñas no coinciden."));
+        }
         const newUser= new User();
         newUser.email = email;
         newUser.password = newUser.encryptPassword(password);
